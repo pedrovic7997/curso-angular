@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DiretivaNgstyleComponent implements OnInit {
 
+  ativo: boolean = false;
+  tamanhoFonte: number = 20;
+  
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onClick(){
+    this.ativo = !this.ativo;
   }
 
 }
