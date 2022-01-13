@@ -114,7 +114,7 @@
   "defaultProject": "diretivas",
   "schematics": {
     "@schematics/angular:component": {
-      "style": "scss"
+      "style": "css"
     }
   },
   "cli": {
